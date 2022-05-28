@@ -1,0 +1,19 @@
+@import "../../../scoop/assets/css/style.min.css";
+
+/* Your CSS code goes here
+-------------------------------------- */
+.woocommerce .cart-empty{
+    text-align: center;
+}
+.woocommerce .cart-empty .no-item{
+    font-size: 20px;
+}
+.woocommerce .cart-empty .return-shop, .woocommerce .cart-empty .signin:hover{
+    background-color: #fff;
+    color: #4bb8ab;
+    border: 1px solid #4bb8ab;
+}
+.woocommerce .cart-empty .return-shop:hover, .woocommerce .cart-empty .signin{
+    background-color: #4bb8ab;
+    color: #fff;
+}

@@ -1,0 +1,195 @@
+# Leader - WordPress Theme by Pojo.me
+
+### 2017-04-19 v4.0.5
+	* Fix! - Added compatibility with WooCommerce 3.0 - Products by Category widget
+
+### 2017-04-18 v4.0.4
+	* Tweak! - Fully support WooCommerce v3.0.0
+	* Tweak! - Updated Revolution Slider v5.4.1
+	* Tweak! - Added `no_apply_child_posts` to Gallery CPT too
+	* Tweak! - Removed templates section when the backend builder is disable
+
+### 2017-02-23 v4.0.3
+	* Tweak! - Added support in Sticky Header for Menu Anchor widget by Elementor
+	* Fix! - Custom field in menus on WordPress 4.7
+	* Fix! - Change the URL for revslider plugin installation
+
+### 2017-01-25 v4.0.2
+	* Tweak! - Remove Live CSS when is empty (Moved to Additional CSS since WP v4.7+)
+	* Fix! - Apply page protected in galleries
+	* Fix! - Slideshow notice
+	* Fix! - Elementor with Posts page
+	* Fix - Blank page apply on the children posts
+
+### 2016-12-20 v4.0.1
+	* Tweak! - Updated jQuery Numerator Plugin v0.2.1
+	* Tweak! - Updated Revolution Slider v5.3.1.5
+	* Tweak! - Added `po_single_metadata_show` filter
+	* Fix! - Two Slideshows in one page (with same source)
+
+### 2016-11-14 v4.0.0
+	* Tweak! - Added HTTPS link to google fonts script
+	* Tweak! - Reorder loading scripts in Child Theme
+	* Tweak! - Added menu anchor support for Elementor
+	* Tweak! - New demos for all pojo themes, designed by Elementor
+	* Tweak! - Elementor now is primary page builder for Pojo themes
+	* Tweak! - Updated Revolution Slider v5.3.0.2
+	* Tweak! - Updated Isotope plugin v3.0.1
+	* Tweak! - Removed Device Widget, Sharing, Builder Animations plugins from Install Required Plugins
+	* Tweak! - Added OptinMonster to Install Required Plugins
+	* Fix! - Added subset support for Google Fonts
+	* Fix! - Removed margin bottom in post format gallery
+	* Fix! - Reduced file-name for Open Sans Condensed font
+
+### 2016-09-20 v1.4.4
+	* Tweak! - Added integration with Elementor for: Slideshow, Galleries, WooCommerce and Revolution Slider
+    * Tweak! - Added `schema.org` support for post archive and single
+
+### 2016-08-17 v1.4.3
+	* Tweak! - Google Fonts list updated
+	* Tweak! - Short filename for some files
+	* Tweak! - Compatible up to WordPress v4.6
+	* Fixed! - Bug TinyMCE in page builder
+
+### 2016-07-17 v1.4.2
+	* Tweak! - Updated Revolution Slider v5.2.6
+	* Tweak! - Updated Font Awesome v4.6.3
+	* Fixed! - Bootstrap collapse bug
+
+### 2016-06-02 v1.4.1
+	* Tweak! - New 10 google fonts for Hebrew
+	* Tweak! - Fully support WooCommerce v2.6.1
+
+### 2016-06-02 v1.4.0
+	* New! - Elementor support 
+	* New! - Added blank page to all CPTs
+	* Tweak! - Updated Revolution Slider v5.2.5.3
+
+### 2016-04-14 v1.3.2
+	* Fixed! - Issue Login screnn style with WP 4.5
+
+### 2016-04-13 v1.3.1
+	* New! - Added 100% Width Layout for all Custom Post Type
+	* New! - Added Arabic fonts: Droid Arabic Kufi, Droid Arabic Naskh, Noto Kufi Arabic, Noto Naskh Arabic
+	* Tweak! - Compatible up to WordPress v4.5
+	* Tweak! - Updated Revolution Slider v5.4.2.1
+	* Tweak! - Updated Font Awesome v4.6
+	* Tweak! - Updated Pojo Sharing v2.5.11
+	* Tweak! - Improved Scroll between anchor links
+
+### 2016-02-08 v1.3.0
+	* New! - Added language arabic (ar)
+	* Tweak! - Fully support WooCommerce v2.5.2
+	* Tweak! - System Info: Hide Active Plugins and Network Plugins when is empty
+	* Tweak! - Updated Revolution Slider v5.1.6
+	* Tweak! - Updated Font Awesome v4.5.0
+	* Tweak! - Updated BXSlider v4.2.5
+	* Fixed! - Show Scroll up just when is scrolling
+	* Fixed! - Hide breadcrumbs from Titlebar in Widgets Area mode
+	* Fixed! - Minify CSS files
+
+### 2015-12-31 v1.2.0
+	* New! - Added Login screen style
+	* New! - Added System Info under Theme Options
+	* New! - Added builder template shortcode: [pojo-builder-embed id="XXXX"]
+	* Tweak! - Make choose categories in recent posts as optional
+	* Fixed! - Hide scroll up in preview modal
+	* Fixed! - Disable Parallax in touch screen
+
+### 2015-12-22 v1.1.10
+	* Tweak! - Updated Revolution Slider v5.1.5
+	* Fixed! - Posts with `offset` & `paged` in WordPress v4.4
+
+### 2015-12-10 v1.1.9
+	* Fixed! - Wrong permission in WordPress v4.4
+
+### 2015-12-09 v1.1.8
+	* Tweak! - Compatible up to WordPress v4.4
+	* Tweak! - Improved preview modal for Slideshows and Forms
+	* Tweak! - Updated Revolution Slider v5.1.4
+	* Fixed! - Support to WC Cart Menu Sticky
+
+### 2015-11-18 v1.1.7
+	* Tweak! - Improved code for new version of Pojo importer plugin
+	* Tweak! - Improved Licenses API
+	* Tweak! - Social Widget: Improved accessibility
+	* Tweak! - Updated Revolution Slider v5.1.3
+
+### 2015-10-29 v1.1.6
+	* New! - Added sticky menu option: WC Menu cart
+	* Tweak! - Improved accessibility
+	* Tweak! - Updated Revolution Slider v5.1.0
+
+### 2015-10-20 v1.1.5
+	* New! - Added ScrollUp feature
+	* New! - Added filter to default value title bar
+	* New! - Added button class to loading
+	* Tweak! - Builder: New modal for TinyMCE editor
+	* Tweak! - Galleries/Slideshows: Added Slide Duration
+	* Tweak! - Updated Revolution Slider v5.0.9
+	* Tweak! - Better support for WPML & Polylang (Credit line)
+	* Tweak! - Moved Revolution Slider to our cloud server
+	* Fixed! - Opacity field realtime changes in Customizer mode
+
+### 2015-09-03 v1.1.4
+	* New! - Added 404 page layout & setting
+	* Tweak! - Added one more mirror to our licenses system
+	* Tweak! - Changed CSS for RTL fields
+	* Tweak! - Better anchor links with responsive menu 
+	* Tweak! - Updated Revolution Slider v5.0.7
+
+### 2015-08-19 v1.1.3
+	* New! - Added new fields in customizer: Static Front Page, Site Title & Tagline
+	* New! - Added to recent product builder widget orderby:
+			Menu Order, Title, Author, Post Slug, Modified, Comment Count, Post ID, Random, None
+	* New! - Added `pojo_recent_posts_widget_query_args` filter
+	* New! - Added `pojo_tgmpa_config_array` filter
+	* Tweak! - Compatible up to WordPress v4.3
+	* Tweak! - Updated Font awesome v4.4.0
+	* Tweak! - Updated Revolution Slider v5.0.4.1
+	* Tweak! - Changed templates for WooCommerce v2.4+
+	* Tweak! - Changed Menu tab in customizer to Navigation
+	* Tweak! - Hidden favicon options and added notice for old users
+	* Tweak! - Added new license status (No Match) 
+	* Fixed! - Pojo Sharing plugin translate updated
+	* Fixed! - Improved Notice in dashboard
+
+### 2015-07-29 v1.1.2
+	* Fixed! - Widget image in customizer
+	* Fixed! - Some issues with fields
+	* Tweak! - Improved scripts in dashboard
+	* Tweak! - Added support for old forms class
+	* Tweak! - Improved licenses system
+
+### 2015-07-12 v1.1.1
+	* New! - Added filters for sidebar column class
+	* Tweak! - Improved compatibility for Pojo Forms plugin
+	* Tweak! - Added custom taxonomies to Breadcrumbs
+	* Fixed! - HTML mode for all types in Tabs widget
+	* Fixed! - Bug LTR > RTL in Builder columns 
+	* Fixed! - Text + Image widget for responsive (add max width) 
+	* Fixed! - Exclude param in Sub Page Menu widget
+
+### 2015-06-24 v1.1.0
+	* New! - Builder: Advanced Columns
+	* New! - Builder: Better UI for Drag&Drop
+	* New! - Builder: Better supported in small screen resolutions
+	* New! - Builder: Admin Lebel added
+	* New! - Builder: Added Video Backgorund (YouTube Supported)
+	* New! - Builder: Added Custom Text Color for Section 
+	* New! - Builder: Filter copied content form Builder Widgets to Text Editor for searching and adjustment with WordPress SEO by Yoast
+	* New! - Builder: Added HTML mode for Tabs
+	* Tweak! - Pojo Sharing: Fixed some issues with E-mail option
+
+### 2015-06-10 v1.0.2
+	* New! - Template Library
+	* New! - Add Lightbox icon to slideshow gallery in Mobile mode
+	* Tweak! - Auto clear cache for License data (again)
+
+### 2015-06-07 v1.0.1
+	* Tweak! - Youtube embed for IE
+	* Tweak! - Improved CSS for WooCommerce v2.3+
+	* Tweak! - Auto clear cache for License data
+
+### 2015-05-20 v1.0.0
+	* Initial release

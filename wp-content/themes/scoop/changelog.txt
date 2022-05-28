@@ -1,0 +1,85 @@
+# Scoop - WordPress Theme by Pojo.me
+
+### 2015-07-12 v2.3.1
+	* New! - Added filters for sidebar column class
+	* Tweak! - Improved compatibility for Pojo Forms plugin
+	* Tweak! - Added custom taxonomies to Breadcrumbs
+	* Fixed! - HTML mode for all types in Tabs widget
+	* Fixed! - Bug LTR > RTL in Builder columns 
+	* Fixed! Text + Image widget for responsive (add max width) 
+	* Fixed! -  Exclude param in Sub Page Menu widget
+
+### 2015-06-24 v2.3.0
+	* New! - Builder: Advanced Columns
+	* New! - Builder: Better UI for Drag&Drop
+	* New! - Builder: Better supported in small screen resolutions
+	* New! - Builder: Admin Lebel added
+	* New! - Builder: Added Video Backgorund (YouTube Supported)
+	* New! - Builder: Added Custom Text Color for Section 
+	* New! - Builder: Filter copied content form Builder Widgets to Text Editor for searching and adjustment with WordPress SEO by Yoast
+	* New! - Builder: Added HTML mode for Tabs
+	* Tweak! - Pojo Sharing: Fixed some issues with E-mail option
+
+### 2015-06-10 v2.2.2
+	* New! - Template Library
+	* New! - Add Lightbox icon to slideshow gallery in Mobile mode
+	* Tweak! - Auto clear cache for License data (again)
+
+### 2015-06-07 v2.2.1
+	* Tweak! - Youtube embed for IE
+	* Tweak! - Improved CSS for WooCommerce v2.3+
+	* Tweak! - Auto clear cache for License data
+
+### 2015-05-20 v2.2.0
+	* Added! - Device Widget plugin into the plugins system
+	* Tweak! - Updated version for Open Sans Hebrew
+	* Tweak! - Updated Revolution Slider v4.6.93
+	* Tweak! - Better accessibility support for WordPress 4.2
+	* Tweak! - Removed theme-files.zip folder and changed to child-theme.zip
+	* Tweak! - Fixed browser alert in repeater widgets
+	* Tweak! - Support in Pojo Lightbox v2 plugin
+
+### 2015-05-05 v2.1.1
+	* Tweak! - Move all demo content from the theme to our remote server
+	* Tweak! - Improved galleries for accessibility
+	* Tweak! - Improved auto updates
+	* Tweak! - Updated Revolution Slider v4.6.92
+	* Fixed! - Some unexpected errors from JS
+
+### 2015-04-29 v2.1.0
+	* Added! Reset Page Templates for better immigration from other themes to Pojo Framework
+	* Added! Don't apply the page settings to the child posts 
+	* Tweak! - Compatible up to WordPress 4.2
+	* Tweak! - Pojo Sidebars Support
+	* Tweak! - Pojo Custom Fonts Support
+	* Tweak! - Updated Revolution Slider v4.6.92
+	* Tweak! - Added time value in comments
+	* Fixed! - Menu Anchor: just for .pojo-menu-anchor
+	* Fixed! - Replacing file in image field
+	* Fixed! - Some bugs with mobile devices
+
+### 2015-03-31 v2.0.2
+	* Fixed! - some bugs with touch screens
+
+### 2015-03-27 v2.0.1
+	* Fixed! - Scroll problem with Mobile devices
+
+### 2015-03-26 v2.0.0
+	* Added! - Parallax Effect for Section (Builder) 
+	* Added! - Posts navigation by Taxonomies (per cpt)
+	* Added! - Anchor Menu Widget for Builder
+	* Added! - Menu Setting to Advanced Options (Hide/Show Custom Menu)
+	* Added! - Custom Sticky Menu 
+	* Added! - Hover Animation For Carousel Slideshows
+	* Added! - Show Widgets Area in Title Bar
+	* Tweak! - Improved Woocommerce Support
+	* Tweak! - Improved Button Widget now in Sidebar also
+	* Tweak! - Removed <base> tag from header.php
+	* Fixed! - Loading Bug in News Ticker
+	* Fixed! - Slideshows with link now it's working
+	* Fixed! - Bootstrap blockquote RTL mode
+	* Fixed! - Testimonials with RTL
+	* Fixed! - Image + Text in Mobile
+
+### 2015-03-10 v1.0.0
+	* Initial release

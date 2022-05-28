@@ -1,0 +1,109 @@
+@import "../../../scoop/assets/css/rtl.min.css";
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+
+
+.sticky-header .logo{min-height: 110px;}
+.sf-menu li a{color: black; font-family: Alef Hebrew; font-size: 17px;}
+.sf-menu li a:hover{color: #0f9fa0;}
+.sf-menu a:hover, .sf-menu li.active a, .sf-menu li.current-menu-item > a, .sf-menu .sfHover > a, .sf-menu .sfHover > li.current-menu-item > a, .sf-menu li.current-menu-ancestor > a, .mobile-menu a:hover, .mobile-menu li.current-menu-item > a, a.search-toggle .fa-times{color: #0f9fa0!important;}
+.kotwhite h2, .kotwhite h2 a{color: white!important; margin-top: -5px; padding-bottom: 10px;}
+.kotwhite figure.elementor-image-box-img {padding-top: 15px;}
+.maraa h2, .maraa h2 a{color: white!important; padding-bottom: 10px;}
+.glass h2, .glass h2 a{color: #0f9fa0!important; padding-bottom: 10px;}
+.nav-main-inner .sf-menu>li>a {padding: 5px 0;}
+#sub-header {background-color: transparent!important; font-size: 23px!important; font-family: Alef Hebrew!important;}
+.elementor-3808 .elementor-element.elementor-element-kcvbkrm { padding: 100px!important 0px 200px 0px;}
+#tab_slide_background{background: none!important; box-shadow: none!important;}
+#tab_slide_include {padding: 30px 50px 20px 20px!important;}
+.kadurim{border-radius: 50%; height: 15px; width: 15px;}
+.telephon{color: #0f9fa0!important; font-size:  36px!important; font-weight: bold!important;}
+#text-13{margin-top: 20px;}
+.navbar-toggle .icon-bar{background: #0f9fa0!important; }
+.navbar-toggle {border: 1px solid #0f9fa0; padding: 5px; margin-top: 15px; }
+.mobile-menu a {color: black!important;}
+#top-bar, #top-bar .widget-title{background: white!important;}
+#sub-header, #sub-header .widget-title {background: white!important;}
+.icon-cart{background: #0f9fa0!important; border-radius: 50%;  height: 30px;  width: 30px; background-position: center center; color: white;}
+.nav-main li.pojo-menu-cart:hover>a>span {background: black!important;}
+.nav-main li.pojo-menu-cart a.pojo-menu-cart-contents .icon-cart:before{margin-right: -2px;}
+.nav-main li.pojo-menu-cart li.cart-content a{font-size: 15px!important; color: white;}
+.sf-menu>li>a>span {background: url(../../../../../images/dotgreen.png); background-repeat: no-repeat; background-position: left;  padding-left: 15px;}
+.menu-item-3482 a>span {background: none!important;}
+.harshama {margin-left: 150px; font-size: 15px; font-family: alef Hebrew; font-weight: normal; color: black;}
+.harshama a {color: black!important;}
+#tab_slide{display: none;}
+.home #tab_slide {display: block;}
+@media only screen and (min-width:769px){
+#top-bar ul.menu li a, #sub-header ul.menu li a {padding-left: 15px;}
+}
+
+#sub-header ul.menu li a:hover{color: #0f9fa0!important;}
+body.rtl #primary #main.sidebar-right {border-left: none!important;}
+.grid-heading a{font-size: 20px; color: #0f9fa0;}
+.grid-item .caption .entry-excerpt p {margin: 0; color: black; font-size: 15px;}
+.banana {text-align: center; background: #FF776F; border-radius: 10px; padding: 20px;}
+.kan {font-size: 25px; color: white;}
+.banana h2{color: white!important; line-height: 100%;}
+h2 {font-weight: normal!important;}
+
+#text-19 .textwidget{font-size: 17px; font-family: Alef Hebrew; line-height: 150%;}
+.social-facebook {background: #4f6aa2;  border-radius: 50%; padding: 5px;}
+.social-twitter {background: #66B4F0;  border-radius: 50%; padding: 5px;}
+.social-googleplus{background: #E05949;  border-radius: 50%; padding: 5px;}
+
+.elementor-text-editor {color: black!important; font-size: 18px;}
+.arial {font-family: Arial, sans-serif; font-size: 21px;}
+.product {font-size: 26px;}
+.underline {text-decoration:underline!important; color: #6ec1e4!important;}
+
+.elementor-widget-heading .elementor-heading-title>a {color: #0f9fa0; }
+h2 {color: #0f9fa0!important; }
+
+.hadpassa h2, .hadpassa h2 a{font-size: 24px;  padding: 5px;  min-height: 70px;;}
+
+input#teiva{width: 40%; float: right; margin-left: 15px; height: 34px; border: 1px solid #1ea8ab;}
+input#uplod {background: #f8b600; border: none; font-weight: bold;  padding: 4px 10px;}
+.mali {font-weight: bold; text-decoration: underline;}
+.afor {width: 80%; height: auto; min-height: 300px; background: #e9e9e9; margin-top: 20px; margin-bottom: 20px;}
+.good1 {display: none;}
+.yarok {width: 47px; float: right; margin-top: -5px;}
+.admoni {width: 110px; height: 30px; float: right;  border: 1px solid #1ea8ab;}
+.rohav {width: 45px; float: right;}
+.gova {width: 40px; float: right; margin-right: 15px; }
+.otakim {width: 100px; float: right; margin-right: 15px; }
+.admoni input[type=text] {padding: 0px 05px;  border: none;}
+p.gimur {float: right; margin-top: 80px;}
+/*.igulim {background: #1ea8ab;  border-radius: 50%;  color: white; font-size: 24px;  width: 40px;  height: 40px;  padding: 10px;}*/
+#number1::before {content: " "; background-image:url(../../../../../images/number1.jpg); width: 61px; height: 61px; position: absolute; right: -80px; top: 40px;}
+#number2::before {content: " "; background-image:url(../../../../../images/number2.jpg); width: 61px; height: 61px; position: absolute; right: -80px;}
+#number3::before {content: " "; background-image:url(../../../../../images/number3.jpg); width: 61px; height: 61px; position: absolute; right: -80px;}
+.elementor-element.elementor-element-107a2d7c.elementor-column.elementor-col-100.elementor-top-column {
+    padding-right: 70px;
+}
+section.elementor-element.elementor-element-205ea67.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section { padding-right: 70px;}
+.elementor-4436 .elementor-element.elementor-element-2ec42b9 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding-right: 70px;
+}
+
+.maraa2 h2 {padding: 17px!important;  border-radius: 5px!important;}
+.maraa2 h2 a {color: white!important;}
+.entry-page select {border: 1px solid #1ea8ab;}
+.afor2 {width: 80%; height: auto; min-height: 300px; background: #e9e9e9; margin-top: 20px; margin-bottom: 20px; padding-top: 30px; }
+.afor2 label {float: right; width: 150px;}
+.afor2 input {width: 50%; margin-bottom: 20px;}
+.banab {margin-right: 12%;}
+.btn-yellow { background: #f8b600; color: black; border: none; font-weight: bold; padding: 10px; width: 50%; font-family: 'Alef Hebrew', Arial, sans-serif; font-size: 18px; float: left;
+    margin-left: 22%;}
+.btn-yellow:after {content: url(http://181.224.148.242/~bengoor/images/agalonett.png); margin-right: 20px;}
+
+@media only screen and (max-width:769px){
+.btn-yellow {float: none; width: 100%;}
+.otakim, .gova {margin-right: 0;}
+.admoni {width: 100%;}
+.afor2 input {width: 100%;}
+.afor2, .afor {width: 100%;}
+}

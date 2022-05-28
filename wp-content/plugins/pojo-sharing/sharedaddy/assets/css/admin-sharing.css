@@ -1,0 +1,508 @@
+/*= Pojo Admin Sharing
+---------------------------------------*/
+.share_manage_options {
+  /****************************************************************************/
+}
+.share_manage_options #services-config {
+  background: #f1f1f1;
+  border: 1px #e3e3e3 solid;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-top: 15px;
+  min-width: 700px;
+  width: 100%;
+  float: left;
+  margin-bottom: 25px;
+}
+.share_manage_options #available-services,
+.share_manage_options #enabled-services,
+.share_manage_options #live-preview {
+  padding: 20px 20px 0px 20px;
+  width: 100%;
+}
+.share_manage_options #enabled-services {
+  padding: 20px;
+}
+.share_manage_options #live-preview {
+  padding: 20px 20px 10px 20px;
+}
+.share_manage_options #available-services {
+  border-bottom: 1px #e3e3e3 solid;
+}
+.share_manage_options #available-services h3,
+.share_manage_options #enabled-services h3,
+.share_manage_options #live-preview h3 {
+  padding: 0px;
+  margin-top: 0px;
+}
+.share_manage_options .description {
+  width: 180px;
+  vertical-align: top;
+}
+.share_manage_options .description p {
+  font-size: 11px;
+}
+.share_manage_options .services {
+  padding: 0px 20px;
+  vertical-align: top;
+}
+.share_manage_options .services ul li {
+  float: left;
+  border: 1px #e3e3e3 solid;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  padding: 5px 10px 5px 24px;
+  margin-right: 5px !important;
+  cursor: move;
+}
+.share_manage_options .services ul li.divider {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: default;
+}
+.share_manage_options .preview {
+  float: left !important;
+  width: 98%;
+}
+.share_manage_options .services ul.preview li,
+.share_manage_options .services ul.archive li {
+  border: none;
+}
+.share_manage_options .services ul li#facebook,
+.share_manage_options #available-services .preview-facebook div.option-smart-off {
+  background: #ffffff url(../images/facebook.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#twitter,
+.share_manage_options #available-services .preview-twitter div.option-smart-off {
+  background: #ffffff url(../images/twitter.png?1) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#wordpress,
+.share_manage_options #available-services .preview-wordpress {
+  background: #ffffff url(../images/wordpress.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#digg,
+.share_manage_options #available-services .preview-digg div.option-smart-off {
+  background: #ffffff url(../images/digg.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#reddit,
+.share_manage_options #available-services .preview-reddit div.option-smart-off {
+  background: #ffffff url(../images/reddit.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#stumbleupon,
+.share_manage_options #available-services .preview-stumbleupon div.option-smart-off {
+  background: #ffffff url(../images/stumbleupon.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#email,
+.share_manage_options #available-services .preview-email {
+  background: #ffffff url(../images/email.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#print,
+.share_manage_options #available-services .preview-print {
+  background: #ffffff url(../images/print.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#press-this,
+.share_manage_options #available-services .preview-press-this {
+  background: #ffffff url(../images/wordpress.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#linkedin,
+.share_manage_options #available-services .preview-linkedin div.option-smart-off {
+  background: #ffffff url(../images/linkedin.png) no-repeat 4px 5px;
+}
+.share_manage_options .services ul li#tumblr,
+.share_manage_options #available-services .preview-tumblr {
+  background: #ffffff url(../images/tumblr.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#google-plus-1,
+.share_manage_options #available-services .preview-google-plus-1 {
+  background: #ffffff url(../images/googleplus1.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#pinterest,
+.share_manage_options #available-services .preview-pinterest {
+  background: #ffffff url(../images/pinterest.png) no-repeat 5px 6px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#pocket,
+.share_manage_options #available-services .preview-pocket {
+  background: #ffffff url(../images/pocket.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li#kindle,
+.share_manage_options #available-services .preview-kindle {
+  background: #ffffff url(../images/kindle.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .services ul li.share-custom,
+.share_manage_options #available-services .preview-custom {
+  background: #ffffff url(../images/custom.png) no-repeat 4px 5px;
+  padding-right: 10px;
+}
+.share_manage_options .preview li.preview-item {
+  margin: 0 15px 0 0;
+  background-position: 0px 5px;
+  padding: 5px 0px 5px 20px;
+  border: none;
+  cursor: default;
+}
+.share_manage_options .preview li.preview-digg,
+.share_manage_options .preview li.preview-reddit,
+.share_manage_options .preview li.preview-stumbleupon,
+.share_manage_options .preview li.preview-facebook,
+.share_manage_options .preview li.preview-twitter,
+.share_manage_options .preview li.preview-linkedin,
+.share_manage_options .preview li.preview-tumblr {
+  padding: 0;
+}
+.share_manage_options .preview-digg .option-smart-on {
+  background: #ffffff url(../images/smart-digg.png) no-repeat top left;
+  background-size: 76px 17px;
+  width: 76px;
+  height: 17px;
+  margin-top: 2px;
+}
+.share_manage_options .preview-reddit .option-smart-on {
+  background: #ffffff url(../images/smart-reddit.png) no-repeat top left;
+  background-size: 104px 21px;
+  width: 104px;
+  height: 21px;
+}
+.share_manage_options .preview-stumbleupon .option-smart-on {
+  background: #ffffff url(../images/smart-stumbleupon.png) no-repeat top left;
+  background-size: 74px 18px;
+  width: 74px;
+  height: 18px;
+  margin-top: 1px;
+}
+.share_manage_options .preview-facebook .option-smart-on {
+  background: #ffffff url(../images/smart-like.png) no-repeat top left;
+  background-size: 50px 20px;
+  width: 50px;
+  height: 20px;
+}
+.share_manage_options .preview-twitter .option-smart-on {
+  background: #ffffff url(../images/smart-twitter.png?1) no-repeat top left;
+  background-size: 92px 20px;
+  width: 92px;
+  height: 20px;
+}
+.share_manage_options .preview-linkedin .option-smart-on {
+  background: #ffffff url(../images/linkedin-smart.png) no-repeat top center;
+  background-size: 99px 18px;
+  width: 99px;
+  height: 18px;
+  margin-top: 1px;
+}
+.share_manage_options .preview-google-plus-1 .option-smart-on {
+  background: #ffffff url(../images/smart-googleplus1.png) no-repeat top left;
+  background-size: 96px 20px;
+  width: 96px;
+  height: 20px;
+}
+.share_manage_options .preview-tumblr .option-smart-on {
+  background: #ffffff url(../images/smart-tumblr.png) no-repeat top left;
+  background-size: 62px 20px;
+  width: 62px;
+  height: 20px;
+}
+.share_manage_options .preview-pinterest .option-smart-on {
+  background: #ffffff url(../images/smart-pinterest.png) no-repeat top left;
+  background-size: 58px 20px;
+  width: 58px;
+  height: 20px;
+}
+.share_manage_options .preview-pinterest .option-smart-on {
+  background: #ffffff url(../images/smart-pinterest.png) no-repeat top left;
+  background-size: 58px 20px;
+  width: 58px;
+  height: 20px;
+}
+.share_manage_options .preview-pocket .option-smart-on {
+  background: #ffffff url(../images/smart-pocket.png) no-repeat top left;
+  background-size: 60px 20px;
+  width: 60px;
+  height: 20px;
+}
+.share_manage_options .services .preview li.share-custom {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background: url("../images/sharing-hidden.png") no-repeat scroll 0px center #ffffff;
+  float: left;
+  line-height: 22px;
+  padding: 0 8px 0 21px;
+  margin: 1px 0 0 0;
+}
+.share_manage_options .services .preview li.share-custom a {
+  color: #333;
+  text-decoration: none;
+}
+.share_manage_options .services ul li.end-fix {
+  clear: both;
+  float: none;
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 0;
+}
+.share_manage_options #enabled-services {
+  border-top: 1px #FFF solid;
+  border-bottom: 1px #e3e3e3 solid;
+}
+.share_manage_options #enabled-services h2 {
+  font-size: 20px;
+  padding-top: 0px;
+  font-weight: normal !important;
+  color: #999;
+}
+.share_manage_options #live-preview h2 {
+  font-size: 20px;
+  font-weight: normal !important;
+  color: #e3e3e3;
+}
+.share_manage_options #live-preview {
+  background: #FFF;
+  border-bottom-left-radius: 6px 6px;
+  border-bottom-right-radius: 6px 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -moz-border-radius-bottomright: 6px;
+}
+.share_manage_options .clearing {
+  clear: both;
+}
+.share_manage_options .options .options-left {
+  float: left;
+}
+.share_manage_options .input label {
+  font-size: 11px;
+  line-height: 16px;
+}
+.share_manage_options .advanced-form {
+  padding: 10px 14px 8px 10px;
+  margin-left: -24px;
+  display: none;
+  border-top: 1px #e3e3e3 solid;
+  margin-top: 4px;
+}
+.share_manage_options .utility {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+}
+.share_manage_options .advanced input[type=submit] {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.share_manage_options .services li.dropzone {
+  border: 1px dashed #999;
+  background: #e3e3e3;
+}
+.share_manage_options .advanced-form .form-table th {
+  width: auto !important;
+}
+.share_manage_options .advanced-form .button-secondary {
+  margin-top: 0 !important;
+}
+.share_manage_options #hidden-drop-target {
+  background: #e1e1e1;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  width: 29%;
+  padding: 10px;
+  vertical-align: top;
+}
+.share_manage_options #hidden-drop-target p {
+  font-size: 10px;
+  margin: 0 0 10px 0;
+}
+.share_manage_options .sharing-hidden .inner {
+  position: absolute;
+  border: 2px solid #6e6e6e;
+  padding: 15px 0px;
+  background: #fff;
+}
+.share_manage_options .sharing-hidden ul {
+  margin: 0 !important;
+}
+.share_manage_options .services .sharing-hidden li {
+  margin: 0px 10px 0px 10px;
+  background-color: transparent;
+}
+.share_manage_options .sharing-hidden li.share-end {
+  clear: both;
+  height: 0;
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 0;
+  visibility: hidden;
+  float: none;
+}
+.share_manage_options .preview .sharing-label {
+  font-weight: bold;
+  border: 0;
+  padding: 4px 6px 0 0;
+}
+.share_manage_options #services-config a.remove {
+  background: #ddd;
+  color: #fff;
+  padding: 0px 4px 2px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+}
+.share_manage_options #services-config a.remove:hover {
+  background: #f00;
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .share_manage_options .services ul li#facebook,
+  .share_manage_options #available-services .preview-facebook div.option-smart-off {
+    background: #ffffff url(../images/facebook@2x.png) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#twitter,
+  .share_manage_options #available-services .preview-twitter div.option-smart-off {
+    background: #ffffff url(../images/twitter@2x.png?1) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#wordpress,
+  .share_manage_options #available-services .preview-wordpress {
+    background: #ffffff url(../images/wordpress@2x.png?1) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#digg,
+  .share_manage_options #available-services .preview-digg div.option-smart-off {
+    background: #ffffff url(../images/digg@2x.png) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#reddit,
+  .share_manage_options #available-services .preview-reddit div.option-smart-off {
+    background: #ffffff url(../images/reddit@2x.png) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#stumbleupon,
+  .share_manage_options #available-services .preview-stumbleupon div.option-smart-off {
+    background: #ffffff url(../images/stumbleupon@2x.png) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#email,
+  .share_manage_options #available-services .preview-email {
+    background: #ffffff url(../images/email@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#print,
+  .share_manage_options #available-services .preview-print {
+    background: #ffffff url(../images/print@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#press-this,
+  .share_manage_options #available-services .preview-press-this {
+    background: #ffffff url(../images/wordpress@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#linkedin,
+  .share_manage_options #available-services .preview-linkedin div.option-smart-off {
+    background: #ffffff url(../images/linkedin@2x.png) no-repeat 4px 5px;
+  }
+  .share_manage_options .services ul li#tumblr,
+  .share_manage_options #available-services .preview-tumblr {
+    background: #ffffff url(../images/tumblr@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#google-plus-1,
+  .share_manage_options #available-services .preview-google-plus-1 {
+    background: #ffffff url(../images/googleplus1@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#pinterest,
+  .share_manage_options #available-services .preview-pinterest {
+    background: #ffffff url(../images/pinterest@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#pocket,
+  .share_manage_options #available-services .preview-pocket {
+    background: #ffffff url(../images/pocket@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#kindle,
+  .share_manage_options #available-services .preview-kindle {
+    background: #ffffff url(../images/kindle@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li.share-custom,
+  .share_manage_options #available-services .preview-custom {
+    background: #ffffff url(../images/custom@2x.png) no-repeat 4px 5px;
+    padding-right: 10px;
+  }
+  .share_manage_options .services ul li#facebook,
+  .share_manage_options #available-services .preview-facebook div.option-smart-off,
+  .share_manage_options .services ul li#twitter,
+  .share_manage_options #available-services .preview-twitter div.option-smart-off,
+  .share_manage_options .services ul li#wordpress,
+  .share_manage_options #available-services .preview-wordpress,
+  .share_manage_options .services ul li#digg,
+  .share_manage_options #available-services .preview-digg div.option-smart-off,
+  .share_manage_options .services ul li#reddit,
+  .share_manage_options #available-services .preview-reddit div.option-smart-off,
+  .share_manage_options .services ul li#stumbleupon,
+  .share_manage_options #available-services .preview-stumbleupon div.option-smart-off,
+  .share_manage_options .services ul li#email,
+  .share_manage_options #available-services .preview-email,
+  .share_manage_options .services ul li#print,
+  .share_manage_options #available-services .preview-print,
+  .share_manage_options .services ul li#press-this,
+  .share_manage_options #available-services .preview-press-this,
+  .share_manage_options .services ul li#linkedin,
+  .share_manage_options #available-services .preview-linkedin div.option-smart-off,
+  .share_manage_options .services ul li#tumblr,
+  .share_manage_options #available-services .preview-tumblr,
+  .share_manage_options .services ul li#google-plus-1,
+  .share_manage_options #available-services .preview-google-plus-1,
+  .share_manage_options .services ul li#pinterest,
+  .share_manage_options #available-services .preview-pinterest,
+  .share_manage_options .services ul li#pocket,
+  .share_manage_options #available-services .preview-pocket,
+  .share_manage_options .services ul li#kindle,
+  .share_manage_options #available-services .preview-kindle,
+  .share_manage_options .services ul li.share-custom,
+  .share_manage_options #available-services .preview-custom {
+    background-size: 16px 16px;
+  }
+  .share_manage_options .preview-digg .option-smart-on {
+    background-image: url(../images/smart-digg@2x.png);
+  }
+  .share_manage_options .preview-reddit .option-smart-on {
+    background-image: url(../images/smart-reddit@2x.png);
+  }
+  .share_manage_options .preview-stumbleupon .option-smart-on {
+    background-image: url(../images/smart-stumbleupon@2x.png);
+  }
+  .share_manage_options .preview-facebook .option-smart-on {
+    background-image: url(../images/smart-like@2x.png);
+  }
+  .share_manage_options .preview-twitter .option-smart-on {
+    background-image: url(../images/smart-twitter@2x.png);
+  }
+  .share_manage_options .preview-linkedin .option-smart-on {
+    background-image: url(../images/linkedin-smart@2x.png);
+  }
+  .share_manage_options .preview-google-plus-1 .option-smart-on {
+    background-image: url(../images/smart-googleplus1@2x.png);
+  }
+  .share_manage_options .preview-tumblr .option-smart-on {
+    background-image: url(../images/smart-tumblr@2x.png);
+  }
+  .share_manage_options .preview-pinterest .option-smart-on {
+    background-image: url(../images/smart-pinterest@2x.png);
+  }
+  .share_manage_options .preview-pocket .option-smart-on {
+    background-image: url(../images/smart-pocket@2x.png);
+  }
+}
